@@ -1,21 +1,5 @@
 /* CSS Stylesheet */
 
-/* Color Palette
- E1E2EF
- B497D6
- 05204A
- 02020A
- BFACAA
-
- Could try gradient instead
-*/
-
-
-
-/* Colors */
-
-/* Body Styling */
-
 /* *:hover {
     outline: 1px solid green;
 } */
@@ -26,12 +10,17 @@ body {
   font-family: sans-serif;
 }
 
-
-
-
+/* Default properties for divs */
 div {
-  width: 300px;
+  width: 100%;
   margin: auto;
+}
+
+/* Header container */
+
+#site-header-container {
+  display: grid;
+  justify-content: center;
 }
 
 /* Title h1 styling */
@@ -44,14 +33,14 @@ div {
 
 #site-sub-header-1 {
   display: grid;
-  margin-left: 35.6%;
+  /* margin-left: 35.6%; */
   color: rgba(255, 255, 255, 0.5);
 }
 
 #site-sub-header-2 {
   margin-top: -10px;
   display: grid;
-  margin-left: 35.6%;
+  /* margin-left: 35.6%; */
   color: rgba(255, 255, 255, 0.5);
 }
 
