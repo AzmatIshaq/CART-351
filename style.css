@@ -16,9 +16,9 @@
 
 /* Body Styling */
 
-*:hover {
+/* *:hover {
     outline: 1px solid green;
-}
+} */
 
 body {
   background-color: #124;
@@ -28,14 +28,24 @@ body {
 
 
 
+
 div {
   width: 300px;
   margin: auto;
-
 }
 
-p {
+/* Title h1 styling */
 
+#site-header {
+  color: white;
+  display: grid;
+  justify-content: center;
+}
+
+#site-sub-header {
+  display: grid;
+  margin-left: 35.6%;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* Style section titles */
@@ -67,6 +77,8 @@ p {
   width: 100%;
 }
 
+/* Alternating position of main divs */
+
 .main-divs:nth-child(even)::after {
   left: 0px;
   top: -4.5px;
@@ -74,8 +86,6 @@ p {
   border-width: 5px 0 5px 5px;
   border-radius: 50px 0 0 50px;
 }
-
-
 
 .main-divs:nth-child(even) {
   border-left: 3px solid;
