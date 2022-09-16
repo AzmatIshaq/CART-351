@@ -1,0 +1,114 @@
+/* CSS Stylesheet */
+
+/* Color Palette
+ E1E2EF
+ B497D6
+ 05204A
+ 02020A
+ BFACAA
+
+ Could try gradient instead
+*/
+
+
+
+/* Colors */
+
+/* Body Styling */
+
+*:hover {
+    outline: 1px solid green;
+}
+
+body {
+  background-color: #124;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+
+
+div {
+  width: 300px;
+  margin: auto;
+
+}
+
+p {
+
+}
+
+/* Style section titles */
+
+.title {
+  color: orangered;
+  position: relative;
+}
+
+
+/* Container for main content */
+
+.main-divs-container {
+  background-color: #212121;
+  width: 300px;
+  padding: 5%;
+  display: grid;
+  justify-content: center;
+  border-radius: 0.5em;
+}
+
+/* Main content divs */
+
+.main-divs {
+  display: flex;
+  border-top: 0.2em solid;
+  border-color: orangered !important;
+  margin:0; padding: 30px;
+  width: 100%;
+}
+
+.main-divs:nth-child(even)::after {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+
+
+
+.main-divs:nth-child(even) {
+  border-left: 3px solid;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 15px;
+  /* margin-right: 30px; */
+  padding-right: 0;
+}
+
+.main-divs:nth-child(odd) {
+  border-right: 4px solid;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 15px;
+  /* margin-left: 30px; */
+  padding-left: 0;
+}
+
+.main-divs:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+.main-divs:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+
+/* Main content text divs */
+
+.main-divs-text {
+  background-color: #333;
+  color: gray;
+  padding: 1em;
+  border-radius: 0.4em;
+}
