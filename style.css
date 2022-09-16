@@ -16,11 +16,17 @@ div {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Header container */
 
 #site-header-container {
   display: grid;
   justify-content: center;
+  align-items: center;
 }
 
 /* Title h1 styling */
@@ -33,15 +39,15 @@ div {
 
 #site-sub-header-1 {
   display: grid;
-  /* margin-left: 35.6%; */
   color: rgba(255, 255, 255, 0.5);
+  /* margin-left: 35.6%; */
 }
 
 #site-sub-header-2 {
   margin-top: -10px;
   display: grid;
-  /* margin-left: 35.6%; */
   color: rgba(255, 255, 255, 0.5);
+  /* margin-left: 35.6%; */
 }
 
 /* Style section titles */
@@ -51,12 +57,11 @@ div {
   position: relative;
 }
 
-
 /* Container for main content */
 
 .main-divs-container {
   background-color: #212121;
-  width: 300px;
+  width: 33%;
   padding: 5%;
   display: grid;
   justify-content: center;
